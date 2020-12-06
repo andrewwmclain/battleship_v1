@@ -2,7 +2,7 @@
 ## Goal
 Begin a three part series of labs where you will implement the class Battleship game (https://en.wikipedia.org/wiki/Battleship_(game)).  When you finish the final lab of this sequence, you will be able to play against the computer as pictured below:
 
-![Lab 6 Screen Shot](/images/image1.png)
+![Lab 6 Screen Shot](/image1.png)
 
 In this lab you will do an initial implementation of a `Grid` ADT which will maintain the location and status of this ships that a player has placed on the grid. The main new C++ concept that you will get to practice is working with two dimensional arrays.
 
@@ -12,17 +12,17 @@ In this first lab we will simplify things by not using a graphical display.  Ins
 
 The following screen shot shows a run where random ship placement was chosen:
 
-![Random Ship Placement](/images/image5.png)
+![Random Ship Placement](/image5.png)
 
 As you can see, when random ship placement is chosen, the user has to enter an integer for a "random seed."  Different random seeds will usually give you different ship placements, but you get the same sequence of random numbers if you enter the same seed each time.  Random ship placement makes the game more fun, but repeatability makes testing easier!
 
 Next, here's a screen shot for the first part of a run where manual ship placement was chosen:
 
-![Manual Ship Placement1](/images/image3.png)
+![Manual Ship Placement1](/image3.png)
 
 If the user tries to enter a ship placement which doesn't fit within the 10x10 grid, or overlaps a ship that has already been placed on the grid, no placement is done.  No changes to the `Grid` data structure should be made in these error situations.  It's important that the user can continue on and try finishing adding ships.  The following screen shot shows an example of cases where the user tried to  add ships that would have extended outside the grid or overlap another ship.
 
-![Manual Ship Placement2](/images/image2.png)
+![Manual Ship Placement2](/image2.png)
 
 ## Files you are given
 In this lab, you are given all the files you will need for your CLion project.  
